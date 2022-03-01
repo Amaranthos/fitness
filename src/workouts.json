@@ -1,0 +1,143 @@
+[
+  {
+    "name": "Protean - Warmup",
+    "type": "warmup",
+    "exercises": [
+      {
+        "name": "Body Scan Meditation",
+        "duration": {
+          "mins": 5
+        }
+      },
+      {
+        "name": "Knee Circles",
+        "reps": {
+          "count": 10,
+          "desc": "each direction"
+        }
+      },
+      {
+        "name": "Arm Windmills, Opposite Direction",
+        "reps": {
+          "count": 10,
+          "desc": "each direction"
+        }
+      },
+      {
+        "name": "Alt. Toe Touches",
+        "reps": {
+          "count": 5,
+          "desc": "per side"
+        }
+      },
+      {
+        "name": "High Kicks",
+        "reps": {
+          "count": 5,
+          "desc": "each leg, straight up then sideways"
+        }
+      },
+      {
+        "name": "Anterior Reach",
+        "reps": {
+          "count": 5,
+          "desc": "per side"
+        }
+      },
+      {
+        "name": "Posterior Reach",
+        "reps": {
+          "count": 5,
+          "desc": "per side"
+        }
+      },
+      {
+        "name": "Bird Dog",
+        "reps": {
+          "count": 5,
+          "desc": "per side"
+        }
+      },
+      {
+        "name": "Deep Squats",
+        "reps": {
+          "count": 5
+        }
+      },
+      {
+        "name": "Balance Board",
+        "optional": true,
+        "duration": {
+          "mins": 2
+        }
+      },
+      {
+        "name": "Reaction Ball-Wall | Juggling | Skipping",
+        "duration": {
+          "mins": 2
+        }
+      },
+      {
+        "name": "Skater Hops",
+        "reps": {
+          "count": 10,
+          "desc": "per side"
+        }
+      },
+      {
+        "name": "Overcoming Isometric",
+        "reps": {
+          "count": 4,
+          "duration": {
+            "secs": 7
+          },
+          "desc": "at 3 joint angles"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Protean - Lower",
+    "type": "lower",
+    "exercises": [
+      {
+        "name": "",
+        "reps": {
+          "count": 50,
+          "sets": 2,
+          "weight": 10
+        }
+      }
+    ]
+  },
+  {
+    "name": "Protean - Upper",
+    "type": "upper",
+    "exercises": []
+  },
+  {
+    "name": "Protean - Full",
+    "type": "full",
+    "exercises": []
+  },
+  {
+    "name": "Protean - Mobility",
+    "type": "mobility",
+    "exercises": []
+  },
+  {
+    "name": "Calimove - Mobility - S1",
+    "type": "mobility",
+    "exercises": []
+  },
+  {
+    "name": "Calimove - Mobility - S2",
+    "type": "mobility",
+    "exercises": []
+  },
+  {
+    "name": "Calimove - Mobility - S3",
+    "type": "mobility",
+    "exercises": []
+  }
+]

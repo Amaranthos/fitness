@@ -1,17 +1,21 @@
 import React from "react";
+import { Card } from "./Card";
+import { CardList } from "./CardList";
 
 import workouts from "./workouts.json";
 
 export default () => (
   <>
-    <h1 className="text-xl">Workouts</h1>
-    <ul className="flex-col">
+    <header className="pt-2 flex justify-around">
+      <h1 className="text-6xl font-semibold">Workouts</h1>
+    </header>
+    <CardList>
       {workouts.map((workout) => (
-        <li key={workout.name}>
-          <Workout workout={workout} />
+        <li key={workout.name} className="mb-2 last:mb-0">
+          <Card title={workout.name} />
         </li>
       ))}
-    </ul>
+    </CardList>
   </>
 );
 

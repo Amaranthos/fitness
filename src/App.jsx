@@ -4,7 +4,7 @@ import { Workouts } from "@/pages/Workouts";
 import { Workout } from "@/pages/Workout";
 
 export default () => (
-  <BrowserRouter>
+  <BrowserRouter basename="fitness/">
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="workouts" element={<Outlet />}>

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "",
   "license": "MIT",
+  "homepage": "https://github.com/Amaranthos/fitness",
   "scripts": {
     "start": "concurrently \"yarn styles --watch\" \"vite\"",
     "build": "vite build",

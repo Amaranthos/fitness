@@ -4,9 +4,11 @@
   "description": "",
   "license": "MIT",
   "scripts": {
-    "start": "concurrently \"yarn styles\" \"vite\"",
+    "start": "concurrently \"yarn styles --watch\" \"vite\"",
     "build": "vite build",
-    "styles": "npx tailwindcss -i ./src/styles.css -o ./dist.css --watch"
+    "styles": "npx tailwindcss -i ./src/styles.css -o ./dist.css",
+    "predeploy": "rm -rf dist && yarn styles && yarn build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -16,6 +18,7 @@
   "devDependencies": {
     "babel-preset-nano-react-app": "^0.1.0",
     "concurrently": "^7.0.0",
+    "gh-pages": "^3.2.3",
     "tailwindcss": "^3.0.23",
     "vite": "^2.6.7"
   },

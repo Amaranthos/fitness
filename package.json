@@ -6,7 +6,7 @@
   "scripts": {
     "start": "concurrently \"yarn styles --watch\" \"vite\"",
     "build": "vite build",
-    "styles": "npx tailwindcss -i ./src/styles.css -o ./dist.css",
+    "styles": "npx tailwindcss -i ./src/styles.css -o ./main.css",
     "predeploy": "rm -rf dist && yarn styles && yarn build",
     "deploy": "gh-pages -d dist"
   },

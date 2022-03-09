@@ -101,11 +101,15 @@
     "type": "lower",
     "exercises": [
       {
-        "name": "",
+        "name": [
+          "Alt. 1 Leg Jump Squat w/ Knee Thrust",
+          "Lunge Scissor Jump",
+          "Reverse Lunge"
+        ],
+        "type": "gauntlet",
         "reps": {
-          "count": 50,
           "sets": 2,
-          "weight": 10
+          "count": "10/30/50"
         }
       }
     ]

@@ -17,13 +17,9 @@ export default () => (
 );
 
 function App() {
-  console.log("Rendering App");
-
   return <Workouts />;
 }
 
 function NotFound() {
-  console.log("Rendering NotFound");
-
   return <p>Page not found</p>;
 }

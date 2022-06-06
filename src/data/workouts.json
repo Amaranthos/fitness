@@ -176,11 +176,7 @@
         }
       },
       {
-        "name": [
-          "Weighted Glute Bridges",
-          "Unilateral Glute Bridges",
-          "Glute Bridges"
-        ],
+        "name": ["Deficit Calf Raises", "Calf Raises"],
         "type": "gauntlet",
         "reps": {
           "sets": 2,
@@ -188,7 +184,11 @@
         }
       },
       {
-        "name": ["Deficit Calf Raises", "Calf Raises"],
+        "name": [
+          "Weighted Glute Bridges",
+          "Unilateral Glute Bridges",
+          "Glute Bridges"
+        ],
         "type": "gauntlet",
         "reps": {
           "sets": 2,

@@ -683,5 +683,52 @@
         "name": "Calimove - Mobility - S3",
         "type": "mobility",
         "exercises": []
-    }
+    },
+    {
+        "name": "Short Mobility",
+        "type": "mobility",
+        "exercises": [
+            {
+                "name": "Dead Hang",
+                "reps": {
+                    "sets": 3,
+                    "duration": {
+                        "secs": 30
+                    }   
+                }
+            },
+            {
+                "name": "Glute Bridge",
+                "reps": {    
+                    "sets": 2,
+                    "count": 15 
+                }
+            },
+            {
+                "name": "Farmer's Carry",
+                "reps": {
+                    "sets": 3,
+                    "duration": {
+                         "secs": 60   
+                    }    
+                }
+            },
+            {
+                "name": "Thread the Needle",
+                "reps": {
+                    "sets": 2,
+                    "count": 10,
+                    "desc": "per side"
+                }
+            },
+            {
+                "name": "Deep squat",
+                "reps": {
+                    "sets": 3,
+                    "duration": {
+                        "secs": 30
+                    }
+                }
+            }
+        ]
 ]
